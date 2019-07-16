@@ -16,7 +16,7 @@ Two explicit for nested loops.
 O(log n) for first for loop.
 O(n) for second for loop.
 
-Hence, O(n+logn)
+Hence, O(logn * n)
 
 Task1.py
 
