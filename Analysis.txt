@@ -1,0 +1,50 @@
+Worst case Big O approximations
+
+Reading file is common for all the tasks.
+Time complexity:
+O(n) -> Reading text.csv 
+O(n) -> Reading calls.csv
+
+Task0.py
+O(1) -> For iterations.
+
+
+Task1.py
+
+Two explicit for nested loops.
+
+O(log n) for first for loop.
+O(n) for second for loop.
+
+Hence, O(n+logn)
+
+Task1.py
+
+O(n) -> Single explicit for loop.
+O(1) -> for rest 3 lines inside for loop.
+
+Task2.py
+O(n) -> for single list comprehension.
+
+Task3.py
+Part-A
+
+O(n) -> For first list comprehension.
+O(n) -> For second list comprehension.
+O(n) -> For third for loop comprehension.
+O(logn) -> For sorting the list.
+
+Hence, in case of the third loop comprehension, total analysis is O(n*logn)
+
+Part-B
+O(n) -> For the single list comprehension.
+O(1) -> Constant operation for rest of the line of codes in this section.
+
+Task4.py
+total 3 explicit for loops.
+O(n) -> For first for loop
+O(n) -> For second for loop
+O(n) -> For third for loop
+O(logn) -> for sorting of the list.
+
+
